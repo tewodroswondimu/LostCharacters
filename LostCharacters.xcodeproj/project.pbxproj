@@ -10,11 +10,13 @@
 		181D21411A783C31007376B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D21401A783C31007376B4 /* main.m */; };
 		181D21441A783C31007376B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D21431A783C31007376B4 /* AppDelegate.m */; };
 		181D21471A783C31007376B4 /* LostCharacters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 181D21451A783C31007376B4 /* LostCharacters.xcdatamodeld */; };
-		181D214A1A783C31007376B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D21491A783C31007376B4 /* ViewController.m */; };
+		181D214A1A783C31007376B4 /* LostCharactersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D21491A783C31007376B4 /* LostCharactersViewController.m */; };
 		181D214D1A783C31007376B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181D214B1A783C31007376B4 /* Main.storyboard */; };
 		181D214F1A783C31007376B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181D214E1A783C31007376B4 /* Images.xcassets */; };
 		181D21521A783C31007376B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181D21501A783C31007376B4 /* LaunchScreen.xib */; };
 		181D215E1A783C31007376B4 /* LostCharactersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D215D1A783C31007376B4 /* LostCharactersTests.m */; };
+		181D21681A78413D007376B4 /* lost.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181D21671A78413D007376B4 /* lost.plist */; };
+		183FD0431A7856710060DDBD /* LostCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 183FD0421A7856710060DDBD /* LostCharacter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +36,17 @@
 		181D21421A783C31007376B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		181D21431A783C31007376B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		181D21461A783C31007376B4 /* LostCharacters.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LostCharacters.xcdatamodel; sourceTree = "<group>"; };
-		181D21481A783C31007376B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		181D21491A783C31007376B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181D21481A783C31007376B4 /* LostCharactersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LostCharactersViewController.h; sourceTree = "<group>"; };
+		181D21491A783C31007376B4 /* LostCharactersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LostCharactersViewController.m; sourceTree = "<group>"; };
 		181D214C1A783C31007376B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181D214E1A783C31007376B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		181D21511A783C31007376B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		181D21571A783C31007376B4 /* LostCharactersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LostCharactersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181D215C1A783C31007376B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181D215D1A783C31007376B4 /* LostCharactersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LostCharactersTests.m; sourceTree = "<group>"; };
+		181D21671A78413D007376B4 /* lost.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lost.plist; sourceTree = "<group>"; };
+		183FD0411A7856710060DDBD /* LostCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostCharacter.h; sourceTree = "<group>"; };
+		183FD0421A7856710060DDBD /* LostCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostCharacter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +90,14 @@
 			children = (
 				181D21421A783C31007376B4 /* AppDelegate.h */,
 				181D21431A783C31007376B4 /* AppDelegate.m */,
-				181D21481A783C31007376B4 /* ViewController.h */,
-				181D21491A783C31007376B4 /* ViewController.m */,
+				181D21481A783C31007376B4 /* LostCharactersViewController.h */,
+				181D21491A783C31007376B4 /* LostCharactersViewController.m */,
+				183FD0411A7856710060DDBD /* LostCharacter.h */,
+				183FD0421A7856710060DDBD /* LostCharacter.m */,
 				181D214B1A783C31007376B4 /* Main.storyboard */,
 				181D214E1A783C31007376B4 /* Images.xcassets */,
 				181D21501A783C31007376B4 /* LaunchScreen.xib */,
+				181D21671A78413D007376B4 /* lost.plist */,
 				181D21451A783C31007376B4 /* LostCharacters.xcdatamodeld */,
 				181D213E1A783C31007376B4 /* Supporting Files */,
 			);
@@ -204,6 +212,7 @@
 			files = (
 				181D214D1A783C31007376B4 /* Main.storyboard in Resources */,
 				181D21521A783C31007376B4 /* LaunchScreen.xib in Resources */,
+				181D21681A78413D007376B4 /* lost.plist in Resources */,
 				181D214F1A783C31007376B4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,8 +232,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				181D21471A783C31007376B4 /* LostCharacters.xcdatamodeld in Sources */,
+				183FD0431A7856710060DDBD /* LostCharacter.m in Sources */,
 				181D21441A783C31007376B4 /* AppDelegate.m in Sources */,
-				181D214A1A783C31007376B4 /* ViewController.m in Sources */,
+				181D214A1A783C31007376B4 /* LostCharactersViewController.m in Sources */,
 				181D21411A783C31007376B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +426,7 @@
 				181D21631A783C31007376B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		181D21641A783C31007376B4 /* Build configuration list for PBXNativeTarget "LostCharactersTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				181D21661A783C31007376B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
