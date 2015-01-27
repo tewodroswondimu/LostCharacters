@@ -90,10 +90,8 @@
 			children = (
 				181D21421A783C31007376B4 /* AppDelegate.h */,
 				181D21431A783C31007376B4 /* AppDelegate.m */,
-				181D21481A783C31007376B4 /* LostCharactersViewController.h */,
-				181D21491A783C31007376B4 /* LostCharactersViewController.m */,
-				183FD0411A7856710060DDBD /* LostCharacter.h */,
-				183FD0421A7856710060DDBD /* LostCharacter.m */,
+				183FD0451A785B220060DDBD /* ViewControllers */,
+				183FD0441A785B1C0060DDBD /* Models */,
 				181D214B1A783C31007376B4 /* Main.storyboard */,
 				181D214E1A783C31007376B4 /* Images.xcassets */,
 				181D21501A783C31007376B4 /* LaunchScreen.xib */,
@@ -128,6 +126,24 @@
 				181D215C1A783C31007376B4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183FD0441A785B1C0060DDBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				183FD0411A7856710060DDBD /* LostCharacter.h */,
+				183FD0421A7856710060DDBD /* LostCharacter.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		183FD0451A785B220060DDBD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				181D21481A783C31007376B4 /* LostCharactersViewController.h */,
+				181D21491A783C31007376B4 /* LostCharactersViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

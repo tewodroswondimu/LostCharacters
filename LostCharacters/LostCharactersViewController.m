@@ -10,7 +10,7 @@
 #import "LostCharacter.h"
 #import "AppDelegate.h"
 
-@interface LostCharactersViewController ()
+@interface LostCharactersViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property NSManagedObjectContext *context;
 @property NSArray *lostCharacters;
@@ -40,6 +40,8 @@
     }
 }
 
+#pragma mark CORE DATA
+
 - (void)addToCoreData:(LostCharacter *)lostCharacter
 {
 
@@ -64,6 +66,19 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark TABLE VIEW
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.lostCharacters.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"LostCharactersCell"];
+    return cell;
 }
 
 @end
