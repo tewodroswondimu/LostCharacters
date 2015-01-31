@@ -17,6 +17,9 @@
 		181D215E1A783C31007376B4 /* LostCharactersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D215D1A783C31007376B4 /* LostCharactersTests.m */; };
 		181D21681A78413D007376B4 /* lost.plist in Resources */ = {isa = PBXBuildFile; fileRef = 181D21671A78413D007376B4 /* lost.plist */; };
 		183FD0431A7856710060DDBD /* LostCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 183FD0421A7856710060DDBD /* LostCharacter.m */; };
+		183FD0481A7867530060DDBD /* LostCharacterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183FD0471A7867530060DDBD /* LostCharacterDetailViewController.m */; };
+		18BD3B231A78692C009989C4 /* AddLostCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD3B221A78692C009989C4 /* AddLostCharacterViewController.m */; };
+		18BD3B261A78AF77009989C4 /* LostCharacterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD3B251A78AF77009989C4 /* LostCharacterTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,12 @@
 		181D21671A78413D007376B4 /* lost.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lost.plist; sourceTree = "<group>"; };
 		183FD0411A7856710060DDBD /* LostCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostCharacter.h; sourceTree = "<group>"; };
 		183FD0421A7856710060DDBD /* LostCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostCharacter.m; sourceTree = "<group>"; };
+		183FD0461A7867530060DDBD /* LostCharacterDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostCharacterDetailViewController.h; sourceTree = "<group>"; };
+		183FD0471A7867530060DDBD /* LostCharacterDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostCharacterDetailViewController.m; sourceTree = "<group>"; };
+		18BD3B211A78692C009989C4 /* AddLostCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLostCharacterViewController.h; sourceTree = "<group>"; };
+		18BD3B221A78692C009989C4 /* AddLostCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLostCharacterViewController.m; sourceTree = "<group>"; };
+		18BD3B241A78AF77009989C4 /* LostCharacterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostCharacterTableViewCell.h; sourceTree = "<group>"; };
+		18BD3B251A78AF77009989C4 /* LostCharacterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostCharacterTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +151,12 @@
 			children = (
 				181D21481A783C31007376B4 /* LostCharactersViewController.h */,
 				181D21491A783C31007376B4 /* LostCharactersViewController.m */,
+				183FD0461A7867530060DDBD /* LostCharacterDetailViewController.h */,
+				183FD0471A7867530060DDBD /* LostCharacterDetailViewController.m */,
+				18BD3B211A78692C009989C4 /* AddLostCharacterViewController.h */,
+				18BD3B221A78692C009989C4 /* AddLostCharacterViewController.m */,
+				18BD3B241A78AF77009989C4 /* LostCharacterTableViewCell.h */,
+				18BD3B251A78AF77009989C4 /* LostCharacterTableViewCell.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -247,6 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183FD0481A7867530060DDBD /* LostCharacterDetailViewController.m in Sources */,
+				18BD3B261A78AF77009989C4 /* LostCharacterTableViewCell.m in Sources */,
+				18BD3B231A78692C009989C4 /* AddLostCharacterViewController.m in Sources */,
 				181D21471A783C31007376B4 /* LostCharacters.xcdatamodeld in Sources */,
 				183FD0431A7856710060DDBD /* LostCharacter.m in Sources */,
 				181D21441A783C31007376B4 /* AppDelegate.m in Sources */,

@@ -13,6 +13,13 @@
 @property NSString *actor;
 @property NSString *passenger;
 
-- (instancetype)initWithDictionary:(NSDictionary *)dictionary; 
+@property NSString *imageURL;
+@property NSString *hairColor;
+
+@property BOOL gender;
+@property int seatNumber;
+@property int age;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @end
